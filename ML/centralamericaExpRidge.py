@@ -1,5 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
+"""
+Created on Sun Feb  4 03:17:31 2018
+
+@author: cloudera
+
+"""
 
 
 
@@ -126,5 +132,8 @@ fig_size = plt.rcParams["figure.figsize"]
  
 
 plt.figure(figsize=(250,100)) # increase graph size
+fig_size[0] = 12
+fig_size[1] = 9
+plt.rcParams["figure.figsize"] = fig_size
 
 plt.show()
